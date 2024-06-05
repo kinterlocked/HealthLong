@@ -27,7 +27,7 @@ const onPayment = () => {
   const buyerEmail = sessionStorage.getItem('email');
   /* 1. 가맹점 식별하기 */
   const { IMP } = window;
-  IMP.init('imp17814543');
+  IMP.init('개인발급 imp키');
   
   /* 2. 결제 데이터 정의하기 */
   const data = {
